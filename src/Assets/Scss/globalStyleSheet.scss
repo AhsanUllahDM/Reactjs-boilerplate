@@ -1,0 +1,8 @@
+@import "./veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+body {
+  font-family: $font-family !important;
+  font-size: $font-16;
+  color: $light-gray;
+}
