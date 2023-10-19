@@ -30,8 +30,8 @@ export default function Login(props) {
     onSubmit: async (values) => {
       await dispatch(
         loginUser({
-          email: "ajmal@mail.com",
-          password: "1234",
+          email: "",
+          password: "",
           resetForm: formik.resetForm,
           //   history: history,
         })
